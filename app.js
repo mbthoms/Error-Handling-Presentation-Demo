@@ -10,6 +10,11 @@ var users = require('./routes/users');
 
 var app = express();
 
+
+//Step 5 A)
+//Adding in the variable.
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -42,6 +47,10 @@ app.use('/users', users);
 
 //Step 4
 //This is the production error handler, it makes sure the stacktraces are not leaked to user
+
+
+//Step 5
+//This is a Missing File Error Handler.
 
 
 
